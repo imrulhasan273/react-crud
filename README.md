@@ -165,3 +165,15 @@ Add CSS Rule to `not-found` class.
 ```
 
 ---
+
+# **CRUD Operation Using API**
+
+---
+
+Install `json server` using npm
+
+```cmd
+~$ npm i json-server
+```
+
+---
