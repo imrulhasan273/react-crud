@@ -120,3 +120,48 @@ Use below code `NavLink` instead of `Link`.
 Done..... Now active class working properly....
 
 ---
+
+# Making 404 Page for non-existing page
+
+---
+
+`NotFound.js`
+
+```js
+import React from "react";
+
+const NotFound = () => {
+  return (
+    <div className="not-found">
+      <h1 className="display-1">Page Not Found</h1>
+    </div>
+  );
+};
+
+export default NotFound;
+```
+
+> Here is a class named `not-found`. It will be designed using `css`
+
+Add below `Route` to `Switch` without `exact path`. Because it has no path.
+
+```js
+<Route component={NotFound} />
+```
+
+Add CSS Rule to `not-found` class.
+
+```css
+.not-found {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+```
+
+---
