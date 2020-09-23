@@ -1,3 +1,13 @@
+# TO RUN THE SERVER ALONG WITH API
+
+Now run below command to run both server.
+
+```cmd
+~$ npm run start:dev
+```
+
+---
+
 # Create new React App
 
 # Installing Bootstrap
